@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=decToBi
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=i
+comment2.target=int\ Bi(int)
+numComments=3
