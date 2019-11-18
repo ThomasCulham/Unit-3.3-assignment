@@ -20,7 +20,7 @@ import java.util.Scanner;public class PigLatin{
                 if((e-b)>2){
                     ans=ans + word.substring(1,word.length())+word.charAt(0)+"ay ";
                 }else{
-                    ans= ans + word;
+                    ans= ans + word+ " ";
                 }
                 b=(e+1);
             }
@@ -31,7 +31,7 @@ import java.util.Scanner;public class PigLatin{
                 if((e-b)>2){
                     ans= ans + word.substring(1,word.length())+word.charAt(0)+"ay ";
                 }else{
-                    ans= ans + word;
+                    ans= ans + word + " ";
                 }
             }
 
